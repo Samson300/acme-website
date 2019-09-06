@@ -12,6 +12,11 @@ body{
     overflow:hidden;
 }
 
+ul{
+    margin:0;
+    padding:0;
+}
+
 header{
     background:#35434a;
     color:#ffffff;
@@ -27,10 +32,6 @@ header a{
     font-size:16px;
 }
 
-header ul{
-    margin:0;
-    padding:0;
-}
 
 header li{
     float:left;
@@ -49,4 +50,14 @@ header #branding h1{
 header nav{
     float:right;
     margin-top:10px;
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
 }
