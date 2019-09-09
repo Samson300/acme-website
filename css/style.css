@@ -182,7 +182,8 @@ ul#services li{
     #newsletter form,
     #boxes .box,
     article#main-col,
-    aside#sidebar{
+    aside#sidebar
+    {
         float:none;
         text-align: center;
         width:100%;
@@ -196,7 +197,7 @@ ul#services li{
         margin-top:40px;
     }
 
-    #newsletter button{
+    #newsletter button, quote button{
         display: block;
         width:100%;
     }
